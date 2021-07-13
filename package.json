@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon src/app.js"
   },
-  "author": "",
+  "author": "Paweł Trojnacki",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
