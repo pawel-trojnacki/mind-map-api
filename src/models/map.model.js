@@ -32,6 +32,9 @@ const MapSchema = new mongoose.Schema({
           type: String,
           required: true,
         },
+        content: {
+          type: String,
+        },
         style: {
           type: {
             bold: {

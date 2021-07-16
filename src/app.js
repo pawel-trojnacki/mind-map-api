@@ -1,5 +1,6 @@
 const dotenv = require("dotenv");
 const express = require("express");
+const cors = require("cors");
 const { dbConfig } = require("./db");
 const { mapRouter } = require("./routes/map.router");
 
@@ -10,6 +11,8 @@ dotenv.config();
 dbConfig();
 
 const app = express();
+
+app.use(cors());
 
 app.use(express.json());
 
