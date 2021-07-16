@@ -2,7 +2,7 @@
   "name": "mind-map-api",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "scr/app.js",
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js"
