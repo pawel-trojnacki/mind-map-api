@@ -1,8 +1,8 @@
 const dotenv = require("dotenv");
 const express = require("express");
 const cors = require("cors");
-const { dbConfig } = require("./db");
-const { mapRouter } = require("./routes/map.router");
+const { dbConfig } = require("./src/db");
+const { mapRouter } = require("./src/routes/map.router");
 
 const PORT = process.env.PORT || 5000;
 
