@@ -4,7 +4,7 @@ const cors = require("cors");
 const { dbConfig } = require("./db");
 const { mapRouter } = require("./routes/map.router");
 
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 dotenv.config();
 
